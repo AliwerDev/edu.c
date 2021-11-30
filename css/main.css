@@ -1,8 +1,17 @@
-header {
-  padding: 8px 0;
-}
-header .logo {
-  width: 150px;
-}
+/* Error: Expected expression.
+ *   ,
+ * 2 |     font-family: ;
+ *   |                  ^
+ *   '
+ *   scss\main.scss 2:18  root stylesheet */
 
-/*# sourceMappingURL=main.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected expression.\a   \2577 \a 2 \2502      font-family: ;\d\a   \2502                   ^\a   \2575 \a   scss\\main.scss 2:18  root stylesheet";
+}
