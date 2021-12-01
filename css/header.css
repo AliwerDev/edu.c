@@ -9,7 +9,7 @@
   }
   header.sticky {
     background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 50px -10px;
   }
   header #times {
     display: none;
@@ -25,7 +25,7 @@
     cursor: pointer;
   }
   header .logo {
-    width: 150px;
+    width: 100px;
   }
   header #loginT {
     transition: all 0.3s ease;
