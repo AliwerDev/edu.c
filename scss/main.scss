@@ -1,10 +1,51 @@
-*{
-    font-family: ;
-}
-header{
-    padding: 15px 0;
-    .logo{
-        width: 150px;
-    }
+$color-black: black;
+$color-primary: rgb(60, 60, 226);
+$color-white: white;
 
+*{
+    font-family: 'Rubik', sans-serif;
+}
+.btns-primary{
+    padding: 6px 16px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-radius: 8px;
+    color: $color-primary;
+    background: transparent;
+    border: 2px solid $color-primary;
+    transition: all .3s;
+    &:hover{
+        background: $color-primary;
+        color: white;
+    }
+}
+.display-none{
+    opacity: 0;
+    visibility: collapse;
+}
+#bg{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 89;
+    background: rgba($color: #000000, $alpha: .7);
+}
+
+
+#home{
+    .bg{
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+        background-image: url(../images/home-bg.jpg);
+        background-position: left top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+    width: 100%;
+    height: 100vh;
 }
