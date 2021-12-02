@@ -1,0 +1,23 @@
+@import "varebles";
+
+.section-sign{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-image: url("../images/login-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    .row
+    {
+        height: 100vh;
+    }
+    form{
+        width: 100%;
+        padding: 40px;
+        background-color: blanchedalmond;
+        box-shadow: 0 30px 50px -20px rgba($color: #000000, $alpha: .7);
+        border: 3px solid $color-white;
+    }
+}
